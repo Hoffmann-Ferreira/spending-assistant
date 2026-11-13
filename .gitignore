@@ -1,0 +1,32 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+build/
+*.tsbuildinfo
+
+# Testes
+coverage/
+
+# Variáveis de ambiente (nunca comitar segredos: use .env.example)
+.env
+.env.*
+!.env.example
+
+# Banco local de testes
+*.sqlite
+*.sqlite3
+*.db
+prisma/dev.db*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editores e sistema
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

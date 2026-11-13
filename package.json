@@ -1,0 +1,15 @@
+{
+  "name": "spending-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PoC: API de controle de gastos com avisos assíncronos por fila, painel web e servidor MCP",
+  "license": "MIT",
+  "author": "Andrei Hoffmann Ferreira",
+  "engines": { "node": ">=22" },
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  }
+}
